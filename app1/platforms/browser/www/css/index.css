@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@300;400;700&display=swap');
+
+	body{ /* change background color and font-family */
+		background-color: #001219;
+		font-family: 'Changa';
+	}
+
+	.heading-1{
+		color: #FEFAE0;
+	}
+
+	.player1Color /* intiliaze player1 color */
+	{
+		background-color: #0A9396 ;
+		color: #FEFAE0;
+	}
+
+	.player2Color /* intiliaze player2 color */
+	{
+		background-color: #EE9B00;
+		color: #FEFAE0;
+	}
+
+	.playerAvatar{ /* intiliaze player avatar */
+		height: 70px;
+		width: 70px;
+		margin-bottom: 50px;
+		border-radius: 50%;
+		display: flex;
+	}
+	
+	.player1Avatar { /* intiliaze player1 avatar */
+		background-color: #0A9396 ;
+	  }
+
+	.player2Avatar { /* intiliaze player2 avatar */
+		background-color: #EE9B00 ;
+	  }
+
+	  .row{
+		  display: flex;
+		  gap: .4em;
+	  }
+	#b1, #b2, #b3, #b4, #b5, /* styling for the game boxes */
+	#b6, #b7, #b8, #b9 {
+		width: 2.3em;
+		height: 2em;
+		border-radius: 6px;
+		font-size: 30px;
+		text-align: center;
+		background-color: #005F73;
+		cursor: pointer;
+		margin: 0 auto !important;
+   		float: none !important;
+		border: none;
+		color: #FEFAE0;
+		font-weight: bold;
+	}
+
+	.button{
+		background-color: #94D2BD;
+	}
+
+	
+	#print { /* Player turn */
+		font-size: 20px;
+	}
+
+	span{
+		float:none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.outline {	/* Game Instruction Text */			
+		color: #023047;
+	}
+
+
+@media (max-width: 770px){
+	.row{
+		display: flex;
+		gap: .2em;
+	}
+	#b1, #b2, #b3, #b4, #b5, /* styling for the game boxes */
+	#b6, #b7, #b8, #b9 {
+		width: 1.7em;
+		height: 2em; 
+	}
+}
+
+
+@media (max-width: 480px){
+	.row{
+		
+		gap: .1em;
+	}
+	#b1, #b2, #b3, #b4, #b5, /* styling for the game boxes */
+	#b6, #b7, #b8, #b9 {
+		width: 1em;
+		height: 1em; 
+	}
+}
